@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css"> 
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">
+        <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.freebsd.org%2Flogo%2Flogo-full.png&f=1&nofb=1&ipt=24092b7285b1b1588856bdfb4be504666dc4d4db77584d670d1af4120548d686&ipo=images" alt="logo" width="200px">
+      </a>
+      <ul>
+        <li><a href="/news">News</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Documentation</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+    <foooter>
+      <section>
+        <pre>© 1995-2024 The FreeBSD Project All rights reserved.</pre>
+      </section>
+    </foooter>
+  </main>
+</body>
+</html>

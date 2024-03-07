@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% block content %}
+<h1>
+  FreeBSD, the last true <mark>unix operation system</mark>
+</h1>
+<p>
+  FreeBSD is an operating system used to power modern servers, desktops, and embedded platforms. A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
+</p>
+<button>Source Code</button>
+<button>Releases</button>
+<a href="/forum"><button>Forum</button></a>
+<h2>Leave us your feedback</h2>
+<form action="#">
+  <label for="fullname">Full Name:</label>
+  <input type="text">
+  <label for="gender">Gender:</label>
+  <select name="gender" id="usergender">
+    <option value="">Male</option>
+    <option value="">Female</option>
+    <option value="">Mechanic</option>
+  </select>
+  <textarea name="comment" id="" cols="30" rows="10"></textarea>
+</form>
+{% endblock %}
